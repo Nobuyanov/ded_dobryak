@@ -1,0 +1,245 @@
+/* Custom fonts */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap&subset=cyrillic');
+
+@font-face {
+    font-family: 'ChantillyLH bold';
+    src: url('../fonts/ChantillyLH-Bold.ttf');
+    
+}
+
+/* Main containers */
+
+body{
+    background:#FFF; 
+    
+}
+
+
+/* Navbar */
+.navbar-brand{
+    padding-left: 2em;
+}
+.navbar{ 
+    background:#f1f2f2;
+    -webkit-box-shadow: 0 5px 6px -6px #333;
+    -moz-box-shadow: 0 5px 6px -6px #333;
+    box-shadow: 0 5px 6px -6px #333;
+
+}
+.nav-link , .navbar-brand{ 
+    color: #272848 !important; 
+    cursor: pointer; 
+    font-family: 'PT Sans', sans-serif;
+}
+.nav-link{ 
+    margin-right: 1em !important;
+}
+.nav-link:hover{ 
+    color: #636f8f !important; 
+    font-family: 'PT Sans', sans-serif;
+}
+.navbar-collapse{ 
+    justify-content: flex-end;
+}
+.navbar-text{ 
+    color: #a8aeb8 !important; 
+    font-family: 'PT Sans', sans-serif; 
+    text-decoration: none;
+}
+
+/* Header */
+.header{
+    background:#1360ae; 
+    background-image: url('../img/moroz_bg.png') !important;  
+    background-repeat: no-repeat;   
+}
+.header-div{
+    height: 400px;   
+    
+}
+.ded-bg{
+    width: 100%;
+    background-image: url('../img/ded_moroz.png') !important;
+    background-repeat: no-repeat;   
+    background-position-x: 5% !important;  
+}
+
+.header-content {
+    
+}
+
+.header-content h1{
+    color: #fff !important; 
+    font-family: 'ChantillyLH bold'; 
+    font-size: 3.8rem;
+}
+.header-content p{
+    color: #dee1e3 !important; 
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 1.3rem; 
+    padding-top: 1.4em; 
+    padding-bottom: 1.4em; 
+    padding-right: 1.4em;}
+.header-content button{
+    color: #272848 !important; 
+    background:#fff45d; 
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 1rem; 
+    border:0px;
+    border-radius:15px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;  
+}
+.header-content button:hover{
+    color: #272848 !important; 
+    background:#faf5b6; 
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 1rem; 
+    border:0px;
+    border-radius:15px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;  
+}
+
+.year-2017{
+
+}
+.year-2017 h1{
+    color: #282948 !important; 
+    font-family: 'ChantillyLH bold'; 
+    font-size: 2.5rem;
+}
+.year-2017 p{
+    color: #282948 !important; 
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 1.1rem; 
+    padding-top: 1.4em; 
+    padding-bottom: 1.4em; 
+    padding-right: 1.4em;}
+
+.wish{
+    background:#f1f2f2; 
+}
+.wish h1{
+    color: #282948 !important; 
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 2.8rem;
+}
+.wish p{
+    color: #282948 !important; 
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 1.1rem; 
+   }
+.wish-pl{
+    color: #282948 !important; 
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 1.5rem !important; 
+   }
+
+.wish-ps a{
+    color: #8f9ca6 !important; 
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 0.7rem !important; 
+    text-decoration: underline ;
+   }
+.wish button{
+    color: #272848 !important; 
+    background:#1cc2ee; 
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 1.5rem; 
+    border:0px;
+    border-radius:15px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;  
+    box-shadow: 0 0 15px #93e0f5 ;
+}
+.wish button:hover{
+    color: #272848 !important; 
+    background:#93e0f5; 
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 1.5rem; 
+    border:0px;
+    border-radius:15px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;  
+}
+.smi{
+    background:#1cc2ee; 
+}
+.smi h1{
+    color: #282948 !important; 
+    font-family: 'ChantillyLH bold'; 
+    font-size: 2.5rem;
+}
+.smi p{
+    color: #282948 !important; 
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 1.1rem; 
+    padding-top: 1em; 
+    padding-bottom: 1em; 
+    padding-right: 1.4em;
+}
+.smi button{
+    color: #272848 !important; 
+        background:#fff; 
+        font-family: 'PT Sans', sans-serif; 
+        font-size: 1rem; 
+        border:0px;
+        border-radius:15px;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: 0.8em;
+        padding-bottom: 0.8em;  
+}
+.smi button:hover{
+        color: #272848 !important; 
+        background:#dad9d9; 
+        font-family: 'PT Sans', sans-serif; 
+        font-size: 1rem; 
+        border:0px;
+        border-radius:15px;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: 0.8em;
+        padding-bottom: 0.8em;  
+}
+
+.contacts{
+    background:#105dac; 
+    background-image: url('../img/contacts-bg.png') !important;  
+    background-repeat: no-repeat; 
+    background-position-x: center !important;  
+}
+.contacts h1{
+    color: #fff !important; 
+    font-family: 'ChantillyLH bold'; 
+    font-size: 2.5rem;
+}
+.contacts p{
+    color: #fff !important; 
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 1.3rem; 
+    padding-top: 1em; 
+    padding-bottom: 1em; 
+    padding-right: 1.4em;
+}
+.contacts a{
+    color: #fff !important; 
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 1.3rem; 
+    padding-top: 1em; 
+    padding-bottom: 1em; 
+    padding-right: 1.4em;
+}
+.corn{
+    position: relative;
+    top: -130px;
+}
